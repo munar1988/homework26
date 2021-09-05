@@ -5,6 +5,8 @@ public interface Connectable {
 
     void closeConnection();
 
+    void read(int index) throws Exception;
+
     void checkConnection();
 
     void readOneIndex();
